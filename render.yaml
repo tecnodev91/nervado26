@@ -1,0 +1,13 @@
+# Blueprint Render — sitio estático Nervado 26
+# Si el servicio ya existe en el dashboard, agregá la misma regla a mano:
+# Settings → Redirects/Rewrites → Source /* → Destination /index.html → Rewrite
+services:
+  - type: web
+    name: nervado26
+    runtime: static
+    buildCommand: npm install && npm run build
+    staticPublishPath: dist
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html

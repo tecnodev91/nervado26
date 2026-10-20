@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://nervado26.com.ar/sitemap.xml

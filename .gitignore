@@ -1,0 +1,72 @@
+# Dependencias
+node_modules
+
+# Build
+dist
+dist-ssr
+
+# Entorno y secretos
+.env
+.env.*
+!.env.example
+*.local
+
+# Vite
+.vite
+.vercel
+
+# Python (scripts de imágenes)
+__pycache__/
+*.py[cod]
+
+# Herramientas locales
+.agents/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editores (opcional)
+.idea
+.vscode/*
+!.vscode/extensions.json
+
+# Tests (si se agregan más adelante)
+coverage
+
+# Originales de diseño (el sitio usa public/)
+assets/
+
+# Respaldo local de fotos viejas / prueba (no publicar)
+public/images/sobre-nos/
+public/images/materiales_importantes/
+
+# Logos viejos en raíz de images/ (activos en public/images/logos/)
+public/images/aplicacion-nervado-color.png
+public/images/logo-aplicacion-blanco.png
+public/images/logo-aplicacion-color.png
+public/images/logo-aplicacion-negro.png
+public/images/logo-blanco-aplicacion.png
+public/images/logo-color.png
+public/images/logo-footer-white.png
+public/images/logo-footer-white.webp
+public/images/logo-mark-white.png
+public/images/logo-nav-color.png
+public/images/logo-nav-color.webp
+public/images/logo-navbar.png
+public/images/logo-white.png
+public/images/logo.png
+public/images/nervado-negro.png
+lighthouse-*.json
+
+# Documentos de trabajo con metadatos de autor o del equipo (no hacen falta para compilar ni desplegar)
+docs/TOMA DE REQUISITOS-Nervado26.docx
+docs/respondida/

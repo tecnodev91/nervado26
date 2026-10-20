@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="/images/logos/aplicacion-nervado-color.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Nervado 26 — Materiales de construcción. Hierro, acero, cemento y más. Independencia 650, Godoy Cruz, Mendoza."
+    />
+    <meta name="keywords" content="materiales de construcción, hierro, acero, cemento, Nervado 26, Mendoza" />
+    <meta name="author" content="Nervado 26" />
+    <meta property="og:title" content="Nervado 26 | Materiales de Construcción" />
+    <meta
+      property="og:description"
+      content="Solidez, calidad y asesoramiento para tu obra. Consultá por WhatsApp."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://nervado26.com.ar/images/logos/aplicacion-nervado-color.png" />
+    <meta property="og:url" content="https://nervado26.com.ar/" />
+    <meta property="og:locale" content="es_AR" />
+    <meta name="twitter:card" content="summary" />
+    <link rel="canonical" href="https://nervado26.com.ar/" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "HardwareStore",
+        "name": "Nervado 26",
+        "description": "Venta de materiales de construcción: hierro, acero, cemento, chapas y más.",
+        "url": "https://nervado26.com.ar/",
+        "image": "https://nervado26.com.ar/images/logos/aplicacion-nervado-color.png",
+        "telephone": "+542615519211",
+        "email": "info@nervado26.com.ar",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Independencia 650",
+          "addressLocality": "Godoy Cruz",
+          "addressRegion": "Mendoza",
+          "addressCountry": "AR"
+        },
+        "geo": { "@type": "GeoCoordinates", "latitude": -32.936955, "longitude": -68.827723 },
+        "openingHoursSpecification": [
+          { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday"], "opens": "08:30", "closes": "17:00" },
+          { "@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "08:30", "closes": "12:30" }
+        ]
+      }
+    </script>
+    <meta name="theme-color" content="#1a1a1a" />
+    <style>
+      #nav-fallback {
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+        z-index: 49;
+        background: #1a1a1a;
+      }
+      #nav-fallback-inner {
+        display: flex;
+        max-width: 80rem;
+        margin: 0 auto;
+        padding: 0.25rem 0.75rem;
+      }
+      #nav-fallback img {
+        height: 5rem;
+        width: auto;
+        max-width: min(88vw, 480px);
+        object-fit: contain;
+        object-position: left;
+      }
+      #nav-fallback-spacer {
+        height: calc(5.25rem + 2px);
+      }
+      @media (min-width: 640px) {
+        #nav-fallback-inner {
+          padding: 0.375rem 1.25rem;
+        }
+        #nav-fallback img {
+          height: 6rem;
+        }
+        #nav-fallback-spacer {
+          height: calc(6.25rem + 2px);
+        }
+      }
+      @media (min-width: 768px) {
+        #nav-fallback img {
+          height: 7rem;
+        }
+        #nav-fallback-spacer {
+          height: calc(7.25rem + 2px);
+        }
+      }
+      @media (min-width: 1024px) {
+        #nav-fallback-inner {
+          padding: 0.375rem 2rem;
+        }
+        #nav-fallback img {
+          height: 8rem;
+        }
+        #nav-fallback-spacer {
+          height: calc(8.25rem + 2px);
+        }
+      }
+    </style>
+    <link
+      rel="preload"
+      href="/images/logos/logo-nav-color.webp"
+      as="image"
+      type="image/webp"
+      fetchpriority="high"
+    />
+    <link
+      rel="preload"
+      href="/fonts/montserrat-600.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="/fonts/montserrat-700.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link rel="preload" href="/fonts/inter-400.woff2" as="font" type="font/woff2" crossorigin />
+    <link
+      rel="preload"
+      href="/images/vista_principal/principal.webp"
+      as="image"
+      type="image/webp"
+      fetchpriority="high"
+    />
+    <title>Nervado 26 | Materiales de Construcción</title>
+  </head>
+  <body>
+    <header id="nav-fallback" aria-hidden="true">
+      <div id="nav-fallback-inner">
+        <a href="/">
+          <picture>
+            <source srcset="/images/logos/logo-nav-color.webp" type="image/webp" />
+            <img
+              src="/images/logos/logo-nav-color.png"
+              alt="Nervado 26"
+              width="320"
+              height="256"
+              fetchpriority="high"
+              decoding="sync"
+            />
+          </picture>
+        </a>
+      </div>
+      <div style="height: 1px; background: linear-gradient(to right, transparent, rgba(249, 134, 18, 0.5), transparent)" aria-hidden="true"></div>
+    </header>
+    <div id="nav-fallback-spacer" aria-hidden="true"></div>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
